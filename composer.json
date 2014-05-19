@@ -6,6 +6,11 @@
     "homepage": "https://github.com/Wolg/CakePHP-Behat",
     "license": "MIT",
     "authors": [
+	    {
+		    "name": "Walther",
+		    "homepage": "http://github.com/dakota",
+		    "role": "Migrate"
+	    },
         {
             "name": "Wolg",
             "homepage": "http://github.com/Wolg",
@@ -22,7 +27,9 @@
         "source": "https://github.com/Wolg/CakePHP-Behat"
     },
     "require": {
-        "php": ">=5.3.0",
-        "composer/installers": "*"
+        "php": ">=5.4.19",
+        "composer/installers": "*",
+	    "behat/behat": "~3.0",
+	    "behat/mink-extension": "dev-master"
     }
 }
