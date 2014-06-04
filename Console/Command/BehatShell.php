@@ -75,7 +75,8 @@ class BehatShell extends Shell {
 			array_push($args, '--config', APP . 'Config' . DS . 'behat.yml');
 		}
 
-		$this->behatApp->run(new ArgvInput($args));
+		$this->out('Now running behat tests...');
+		$this->_stop($this->behatApp->run(new ArgvInput($args)));
 	}
 
 /**
