@@ -1,11 +1,9 @@
 <?php
-namespace Behat\Console\Command;
 
 use Behat\Behat\ApplicationFactory;
-use Cake\Console\ConsoleOptionParser;
-use Cake\Console\Shell;
-use Cake\Core\App;
 use Symfony\Component\Console\Input\ArgvInput;
+
+App::uses('Shell', 'Console');
 
 /**
  * Behat shell.
